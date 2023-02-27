@@ -1,0 +1,15 @@
+
+
+Set up a Django project: Start by creating a new Django project using the django-admin command-line utility. You can refer to the Django documentation for detailed instructions on how to do this.
+
+Create a Django app: Once you have created your Django project, you can create a new app within it using the python manage.py startapp command. This app will contain the logic for displaying livestock prices at select livestock markets in Marsabit.
+
+Set up the ODK integration: You will need to integrate ODK with your Django app to enable data collection. You can use the ODK API to communicate with the ODK servers and retrieve data from the forms that you have set up for livestock prices.
+
+Define the Django models: Next, you will need to define the Django models that will represent the data you are collecting from ODK. You can use the Django ORM to create the models and link them to the ODK data.
+
+Implement the business logic: With the models in place, you can implement the business logic for your Django app. This will involve fetching data from the ODK API, processing it as necessary, and displaying it to users.
+
+Dockerize the application: Finally, you can dockerize your Django application by creating a Dockerfile that defines the necessary steps for building and running the application in a container. You can use tools like Docker Compose to manage your containers and simplify the deployment process.
+
+Overall, the process of building and dockerizing a Django application can be complex, so it's a good idea to break it down into smaller steps and follow best practices to ensure that your app is reliable and scalable.
